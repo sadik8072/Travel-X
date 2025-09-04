@@ -1,0 +1,104 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(89, 87, 76, 0.661), rgba(117, 117, 110, 0)), 
+    url('https://media.istockphoto.com/id/2212974171/photo/international-passport-with-tickets-and-hat-on-an-orange-suitcase-against-a-yellow-background.jpg?s=1024x1024&w=is&k=20&c=WxvLFZSXpo2VkU_xrvBMVSzEhm0SgJkAU-Jerhn33R0=');
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+
+}
+
+.menu a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid black;
+    transition: 0.4s;
+}
+
+.menu a:hover::before {
+    width: 80%;
+}
+
+.register a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.register a:hover {
+    background: transparent;
+    border: 2px solid black;
+}
+
+.h1-text {
+    position: absolute;
+    max-width: 600px;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.h1-text span {
+    letter-spacing: 5px;
+
+}
+
+.h1-text h1 {
+    font-size: 3rem;
+}
+
+.h1-text a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 8px;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+
+.h1-text a:hover {
+    background: transparent;
+    border: 2px solid black;
+}
